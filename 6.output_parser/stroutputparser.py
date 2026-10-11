@@ -13,10 +13,6 @@ llm = HuggingFaceEndpoint(
 
 model = ChatHuggingFace(llm=llm)
 
-model = ChatHuggingFace(llm=llm)
-
-model = ChatHuggingFace(llm=llm)
-
 template1 = PromptTemplate(
     template="Write a detailed report on {topic}",
     input_variables=["topic"]
